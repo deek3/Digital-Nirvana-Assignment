@@ -1,0 +1,9 @@
+.qa-inner-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.qa-inner-wrapper .each-item{
+    border-top: 1px solid black;
+}

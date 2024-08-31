@@ -1,0 +1,9 @@
+.conference-participants-inner-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.conference-participants-inner-wrapper .each-item{
+    width: calc(50% - 20px);
+}

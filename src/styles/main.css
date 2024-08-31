@@ -1,0 +1,62 @@
+.App{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.tabs{
+    width: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 40px;
+    padding: 14px 20px;
+}
+
+.tab-wrapper{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.tab-wrapper.selected{
+    text-decoration: underline;
+    color: blue;
+}
+
+.selected-tab-wrapper{
+    margin: 14px 20px;
+    padding: 10px 14px;
+    border: 1px solid black;
+}
+
+.title-header{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+    color: #1d6be9;
+    font-weight: 600;
+}
+.designation-company{
+    font-size: 14px;
+}
+
+.each-item{
+    padding-top: 20px;
+}
+
+.each-item .header{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.each-item .header .participant-name{
+    color: #0022ff;
+}
+
+.each-item .description{
+    font-size: 14px;
+}

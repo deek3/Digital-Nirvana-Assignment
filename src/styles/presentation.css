@@ -1,0 +1,9 @@
+.presentation-inner-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.presentation-inner-wrapper .each-item{
+    border-top: 1px solid black;
+}
